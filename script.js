@@ -11,6 +11,7 @@ function validateForm() {
         alert("Booking confirmed!");
     }
 }
+
 function increaseText() {
     document.body.style.fontSize = "20px";
 }
