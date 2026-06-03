@@ -5,9 +5,31 @@ body {
     color: white;
 }
 
+header {
+    background-color: #1a1a1a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: #A64DFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00AEEF;
+}
+
 h1, h2 {
     font-family: 'Orbitron', sans-serif;
     color: #A64DFF;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
 }
 
 button {
@@ -15,5 +37,25 @@ button {
     border: 2px solid #00AEEF;
     color: white;
     padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00AEEF;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border: 2px solid #00AEEF;
+    border-radius: 10px;
 }
 ``
